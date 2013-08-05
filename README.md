@@ -1,6 +1,8 @@
 Croient
 =======
 
+### Croudiaはクローディア株式会社の登録商標です。
+
 Croudia の API を叩くための物
 
 
