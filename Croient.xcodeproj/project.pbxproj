@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899569CF17AF4B2500B01B45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899569CE17AF4B2500B01B45 /* UIKit.framework */; };
+		899569D117AF4B2500B01B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899569D017AF4B2500B01B45 /* Foundation.framework */; };
+		899569D317AF4B2500B01B45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899569D217AF4B2500B01B45 /* CoreGraphics.framework */; };
+		899569D917AF4B2500B01B45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 899569D717AF4B2500B01B45 /* InfoPlist.strings */; };
+		899569DB17AF4B2500B01B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569DA17AF4B2500B01B45 /* main.m */; };
+		899569DF17AF4B2500B01B45 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569DE17AF4B2500B01B45 /* CRAppDelegate.m */; };
+		899569E117AF4B2500B01B45 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 899569E017AF4B2500B01B45 /* Default.png */; };
+		899569E317AF4B2500B01B45 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 899569E217AF4B2500B01B45 /* Default@2x.png */; };
+		899569E517AF4B2500B01B45 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 899569E417AF4B2500B01B45 /* Default-568h@2x.png */; };
+		89956A0417AF4CDA00B01B45 /* CRAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569F517AF4CDA00B01B45 /* CRAPIRequest.m */; };
+		89956A0517AF4CDA00B01B45 /* CRPublicTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569F717AF4CDA00B01B45 /* CRPublicTimeLine.m */; };
+		89956A0617AF4CDA00B01B45 /* CRHTTPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569FA17AF4CDA00B01B45 /* CRHTTPLoader.m */; };
+		89956A0717AF4CDA00B01B45 /* CRHTTPLoaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569FC17AF4CDA00B01B45 /* CRHTTPLoaderOperation.m */; };
+		89956A0817AF4CDA00B01B45 /* NSDictionary+CRURLParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 899569FE17AF4CDA00B01B45 /* NSDictionary+CRURLParams.m */; };
+		89956A0917AF4CDA00B01B45 /* CROAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 89956A0117AF4CDA00B01B45 /* CROAuth.m */; };
+		89956A0A17AF4CDA00B01B45 /* CROAuthParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 89956A0317AF4CDA00B01B45 /* CROAuthParams.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		899569CB17AF4B2500B01B45 /* Croient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Croient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899569CE17AF4B2500B01B45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		899569D017AF4B2500B01B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		899569D217AF4B2500B01B45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		899569D617AF4B2500B01B45 /* Croient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Croient-Info.plist"; sourceTree = "<group>"; };
+		899569D817AF4B2500B01B45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		899569DA17AF4B2500B01B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		899569DC17AF4B2500B01B45 /* Croient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Croient-Prefix.pch"; sourceTree = "<group>"; };
+		899569DD17AF4B2500B01B45 /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
+		899569DE17AF4B2500B01B45 /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
+		899569E017AF4B2500B01B45 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		899569E217AF4B2500B01B45 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		899569E417AF4B2500B01B45 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		899569F417AF4CDA00B01B45 /* CRAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAPIRequest.h; sourceTree = "<group>"; };
+		899569F517AF4CDA00B01B45 /* CRAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAPIRequest.m; sourceTree = "<group>"; };
+		899569F617AF4CDA00B01B45 /* CRPublicTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPublicTimeLine.h; sourceTree = "<group>"; };
+		899569F717AF4CDA00B01B45 /* CRPublicTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPublicTimeLine.m; sourceTree = "<group>"; };
+		899569F917AF4CDA00B01B45 /* CRHTTPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHTTPLoader.h; sourceTree = "<group>"; };
+		899569FA17AF4CDA00B01B45 /* CRHTTPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHTTPLoader.m; sourceTree = "<group>"; };
+		899569FB17AF4CDA00B01B45 /* CRHTTPLoaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHTTPLoaderOperation.h; sourceTree = "<group>"; };
+		899569FC17AF4CDA00B01B45 /* CRHTTPLoaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHTTPLoaderOperation.m; sourceTree = "<group>"; };
+		899569FD17AF4CDA00B01B45 /* NSDictionary+CRURLParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CRURLParams.h"; sourceTree = "<group>"; };
+		899569FE17AF4CDA00B01B45 /* NSDictionary+CRURLParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CRURLParams.m"; sourceTree = "<group>"; };
+		89956A0017AF4CDA00B01B45 /* CROAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CROAuth.h; sourceTree = "<group>"; };
+		89956A0117AF4CDA00B01B45 /* CROAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CROAuth.m; sourceTree = "<group>"; };
+		89956A0217AF4CDA00B01B45 /* CROAuthParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CROAuthParams.h; sourceTree = "<group>"; };
+		89956A0317AF4CDA00B01B45 /* CROAuthParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CROAuthParams.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899569C817AF4B2500B01B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899569CF17AF4B2500B01B45 /* UIKit.framework in Frameworks */,
+				899569D117AF4B2500B01B45 /* Foundation.framework in Frameworks */,
+				899569D317AF4B2500B01B45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CDDE8AF62C7B8A1E75575F /* CroudiaClient */ = {
+			isa = PBXGroup;
+			children = (
+				899569F317AF4CDA00B01B45 /* API */,
+				899569F817AF4CDA00B01B45 /* HTTP */,
+				899569FF17AF4CDA00B01B45 /* OAuth */,
+			);
+			path = CroudiaClient;
+			sourceTree = "<group>";
+		};
+		899569C217AF4B2500B01B45 = {
+			isa = PBXGroup;
+			children = (
+				899569D417AF4B2500B01B45 /* Croient */,
+				899569CD17AF4B2500B01B45 /* Frameworks */,
+				899569CC17AF4B2500B01B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		899569CC17AF4B2500B01B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899569CB17AF4B2500B01B45 /* Croient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899569CD17AF4B2500B01B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				899569CE17AF4B2500B01B45 /* UIKit.framework */,
+				899569D017AF4B2500B01B45 /* Foundation.framework */,
+				899569D217AF4B2500B01B45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899569D417AF4B2500B01B45 /* Croient */ = {
+			isa = PBXGroup;
+			children = (
+				899569DD17AF4B2500B01B45 /* CRAppDelegate.h */,
+				899569DE17AF4B2500B01B45 /* CRAppDelegate.m */,
+				899569D517AF4B2500B01B45 /* Supporting Files */,
+				82CDDE8AF62C7B8A1E75575F /* CroudiaClient */,
+			);
+			path = Croient;
+			sourceTree = "<group>";
+		};
+		899569D517AF4B2500B01B45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				899569D617AF4B2500B01B45 /* Croient-Info.plist */,
+				899569D717AF4B2500B01B45 /* InfoPlist.strings */,
+				899569DA17AF4B2500B01B45 /* main.m */,
+				899569DC17AF4B2500B01B45 /* Croient-Prefix.pch */,
+				899569E017AF4B2500B01B45 /* Default.png */,
+				899569E217AF4B2500B01B45 /* Default@2x.png */,
+				899569E417AF4B2500B01B45 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		899569F317AF4CDA00B01B45 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				899569F417AF4CDA00B01B45 /* CRAPIRequest.h */,
+				899569F517AF4CDA00B01B45 /* CRAPIRequest.m */,
+				899569F617AF4CDA00B01B45 /* CRPublicTimeLine.h */,
+				899569F717AF4CDA00B01B45 /* CRPublicTimeLine.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		899569F817AF4CDA00B01B45 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				899569F917AF4CDA00B01B45 /* CRHTTPLoader.h */,
+				899569FA17AF4CDA00B01B45 /* CRHTTPLoader.m */,
+				899569FB17AF4CDA00B01B45 /* CRHTTPLoaderOperation.h */,
+				899569FC17AF4CDA00B01B45 /* CRHTTPLoaderOperation.m */,
+				899569FD17AF4CDA00B01B45 /* NSDictionary+CRURLParams.h */,
+				899569FE17AF4CDA00B01B45 /* NSDictionary+CRURLParams.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		899569FF17AF4CDA00B01B45 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				89956A0017AF4CDA00B01B45 /* CROAuth.h */,
+				89956A0117AF4CDA00B01B45 /* CROAuth.m */,
+				89956A0217AF4CDA00B01B45 /* CROAuthParams.h */,
+				89956A0317AF4CDA00B01B45 /* CROAuthParams.m */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899569CA17AF4B2500B01B45 /* Croient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899569E817AF4B2500B01B45 /* Build configuration list for PBXNativeTarget "Croient" */;
+			buildPhases = (
+				899569C717AF4B2500B01B45 /* Sources */,
+				899569C817AF4B2500B01B45 /* Frameworks */,
+				899569C917AF4B2500B01B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Croient;
+			productName = Croient;
+			productReference = 899569CB17AF4B2500B01B45 /* Croient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899569C317AF4B2500B01B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = happy_ryo;
+			};
+			buildConfigurationList = 899569C617AF4B2500B01B45 /* Build configuration list for PBXProject "Croient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 899569C217AF4B2500B01B45;
+			productRefGroup = 899569CC17AF4B2500B01B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899569CA17AF4B2500B01B45 /* Croient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899569C917AF4B2500B01B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899569D917AF4B2500B01B45 /* InfoPlist.strings in Resources */,
+				899569E117AF4B2500B01B45 /* Default.png in Resources */,
+				899569E317AF4B2500B01B45 /* Default@2x.png in Resources */,
+				899569E517AF4B2500B01B45 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899569C717AF4B2500B01B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899569DB17AF4B2500B01B45 /* main.m in Sources */,
+				899569DF17AF4B2500B01B45 /* CRAppDelegate.m in Sources */,
+				89956A0417AF4CDA00B01B45 /* CRAPIRequest.m in Sources */,
+				89956A0517AF4CDA00B01B45 /* CRPublicTimeLine.m in Sources */,
+				89956A0617AF4CDA00B01B45 /* CRHTTPLoader.m in Sources */,
+				89956A0717AF4CDA00B01B45 /* CRHTTPLoaderOperation.m in Sources */,
+				89956A0817AF4CDA00B01B45 /* NSDictionary+CRURLParams.m in Sources */,
+				89956A0917AF4CDA00B01B45 /* CROAuth.m in Sources */,
+				89956A0A17AF4CDA00B01B45 /* CROAuthParams.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		899569D717AF4B2500B01B45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899569D817AF4B2500B01B45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899569E617AF4B2500B01B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		899569E717AF4B2500B01B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899569E917AF4B2500B01B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Croient/Croient-Prefix.pch";
+				INFOPLIST_FILE = "Croient/Croient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		899569EA17AF4B2500B01B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Croient/Croient-Prefix.pch";
+				INFOPLIST_FILE = "Croient/Croient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899569C617AF4B2500B01B45 /* Build configuration list for PBXProject "Croient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899569E617AF4B2500B01B45 /* Debug */,
+				899569E717AF4B2500B01B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899569E817AF4B2500B01B45 /* Build configuration list for PBXNativeTarget "Croient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899569E917AF4B2500B01B45 /* Debug */,
+				899569EA17AF4B2500B01B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899569C317AF4B2500B01B45 /* Project object */;
+}
