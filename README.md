@@ -17,7 +17,7 @@ Redirect URI にはアプリケーション側の認証用 URLScheme として�
 ### プロジェクト側で必要な設定
 
 1. 認証用 URLScheme に Redirect URI で指定した文字列と同じ物を登録する。
-2. [ここから](https://github.com/happy-ryo/Croient)ソースを取得してプロジェクトに追加する。
+2. [ここから](https://github.com/happy-ryo/Croient)ソースを取得して、Croudia Client 内のファイルをプロジェクトに追加する。
 3. CROAuth.m 内の CONSUMER_KEY と CONSUMER_SECRET に Croudia 側から払い出された Consumer key と Consumer secret をそれぞれ設定する。
 
 ### 認証
